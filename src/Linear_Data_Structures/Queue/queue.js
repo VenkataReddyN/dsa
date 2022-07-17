@@ -13,8 +13,7 @@ class Queue {
 
     // dequeue function
     dequeue() {
-        // removing element from the queue & returns underflow when called
-        // on empty queue
+        // removing element from the queue & returns underflow when called on empty queue
         if (this.isEmpty())
             return "Underflow";
         return this.items.shift();
@@ -22,8 +21,7 @@ class Queue {
 
     // front function
     front() {
-        // returns the Front element of
-        // the queue without removing it.
+        // returns the Front element of the queue without removing it.
         if (this.isEmpty())
             return "No elements in Queue";
         return this.items[0];
